@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:cursive;
+    background-color: lime;
+}
+.cabecalho {
+    background-color: red;
+    display: flex;
+    padding-right:20px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.cabecalho > img {
+    height: 60px;
+}
+.menu {
+    display: flex;
+}
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.menu > li:hover {
+    background-color: brown;
+}
+
+.comeco{
+    display: flex;
+    height: 400px;
+    background-image: url(/pixaria/img/pizza.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px green;
+    background-size: cover;
+}
+.comeco > a {
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.236);
+}
+.comeco > a:hover {
+    background-color: rgba(0, 0, 0, 0.396);
+}
+main {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+main > h2{
+    margin-top: 20px;
+    color: green
+}
+main > hr {
+    border: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,0,0,1) 50%, rgba(0,212,255,0) 100%);
+    height: 5px;
+    margin: 10px 20px
+}
+
+.sabor {
+    background-color: green;
+    margin: 10px;
+    text-align: center;
+}
+.sabores {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+.preco {
+    border: 2px solid black;
+    background-color: yellow;
+    text-decoration: underline;
+    color: red
+}
+.preco:hover {
+    background-color: red;
+    color: yellow;
+}
+.promocoes {
+    display: flex;
+    overflow: scroll;
+}
+.promocoes::-webkit-scrollbar{
+    display: none;
+}
+h2 {
+    text-align: center
+}
+.rodape{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+.endereco {
+    color:white;
+}
+li {
+    list-style-type: none;
+}
+.contato > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
