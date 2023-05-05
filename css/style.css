@@ -39,7 +39,7 @@ body {
 .comeco{
     display: flex;
     height: 400px;
-    background-image: url(/pixaria/img/pizza.jpg);
+    background-image: url(./pizza.jpg);
     background-repeat: no-repeat;
     color: white;
     justify-content: center;
